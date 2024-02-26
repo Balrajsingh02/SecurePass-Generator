@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Foldit&family=Nabla&family=Poppins&family=Rock+Salt&display=swap");
+
+*,
+::after,
+::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3468c0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0c2d57;
+  width: 60vw;
+  height: 50vh;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "EDPT" 100, "EHLT" 12;
+  font-size: 20px;
+  padding: 0px 30px;
+}
+
+#password-div {
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+}
+
+#password-div input {
+  width: 100%;
+  padding: 25px;
+  outline: none;
+  font-size: 2rem;
+  border: none;
+}
+
+#password-div #copy-btn {
+  background-color: white;
+  border: none;
+  font-size: 2rem;
+}
+
+#password-div button {
+  padding: 20px;
+  font-size: 1.5rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  cursor: pointer;
+  border: none;
+}
+
+#password-div input::placeholder {
+  font-size: 2rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*range section */
+
+#range-section h5 {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  font-family: poppins;
+  color: white;
+}
+
+#range-section h5 #range-value {
+  display: inline-block;
+  font-family: poppins;
+  color: black;
+  width: 40px;
+  background-color: aliceblue;
+  margin-left: 5px;
+  text-align: center;
+}
+
+#range-section input[type="range"] {
+  width: 100%;
+}
+
+#range-section input[type="range"]::-webkit-slider-runnable-track {
+  height: 25px;
+}
+
+#range-section p {
+  font-family: poppins, cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+}
