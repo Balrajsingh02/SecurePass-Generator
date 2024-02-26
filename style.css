@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   background-color: #0c2d57;
   width: 60vw;
-  height: 50vh;
+  min-height: 50vh;
   margin: 50px auto;
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -103,4 +103,23 @@ body {
   color: white;
   font-size: 16px;
   padding: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .main-container {
+    width: 90vw;
+  }
+
+  #password-div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #password-div input,
+  #password-div input::placeholder,
+  #copy-btn,
+  button {
+    font-size: 1.5rem;
+  }
 }
