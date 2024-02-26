@@ -29,6 +29,7 @@ body {
   font-variation-settings: "EDPT" 100, "EHLT" 12;
   font-size: 20px;
   padding: 0px 30px;
+  color: #ffd43b;
 }
 
 #password-div {
@@ -53,12 +54,14 @@ body {
 
 #password-div button {
   padding: 20px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: "Amatic SC", sans-serif;
   font-weight: 900;
   font-style: normal;
   cursor: pointer;
   border: none;
+  color: black;
+  background-color: #e8cd6e;
 }
 
 #password-div input::placeholder {
